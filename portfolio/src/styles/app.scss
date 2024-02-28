@@ -16,6 +16,10 @@ body{
         background-color: rgba(0, 0, 0, 0.218);
         position: sticky;
         height: 2rem;
+
+        .headersect{
+            height: 2rem;
+        }
     }
 
     .main{
@@ -26,6 +30,6 @@ body{
     }
 }
 
-.navbar{
-    height: 1rem;
-}
+// .navbar{
+//     height: 1rem;
+// }

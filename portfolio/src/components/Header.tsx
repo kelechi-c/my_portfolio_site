@@ -4,8 +4,8 @@ import '../styles/app.scss'
 
 const Header: React.FC = () => {
     return ( 
-        <section className="navbar flex justify-between align-middle p-4 max-h-20">
-            <article className="flex">
+        <div className="flex justify-between h-10 align-middle p-4 bg-black">
+            <article className="flex headersect">
                 <h2 className="pr-6">Tensor_Kelechi</h2>
                 <br />
                 <FaCube/>
@@ -18,7 +18,7 @@ const Header: React.FC = () => {
                     </a>
                 </div>
             </article>
-        </section>
+        </div>
      );
 }
  

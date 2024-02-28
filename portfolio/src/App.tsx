@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     <section className='bg-black text-white font-sans font-semibold'>
-      <header>
+      <header className=''>
         <Header/>
       </header>
       
