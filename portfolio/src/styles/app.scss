@@ -1,7 +1,28 @@
+@font-face {
+    font-family: "Roboto"; /* Name for referencing the font */
+    src: url("fonts/Roboto-Medium.ttf") 
+  }
+
+
 body{
-    background-color: black;
+    background-color: hsl(0, 0%, 0%);
+    font-family: 'Roboto';
 
     section{
         min-height: 100vh;
     }
+
+    header{
+        background-color: rgba(0, 0, 0, 0.218);
+        position: sticky;
+        height: 1rem;
+    }
+
+    .dragup{
+        margin-top: 1rem;
+    }
+}
+
+.navbar{
+    height: 1rem;
 }
