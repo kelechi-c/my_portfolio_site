@@ -4,7 +4,7 @@ import '../styles/app.scss'
 
 const Header: React.FC = () => {
     return ( 
-        <section className="navbar flex justify-between align-middle p-4 max-h-10">
+        <section className="navbar flex justify-between align-middle p-4 max-h-20">
             <article className="flex">
                 <h2 className="pr-6">Tensor_Kelechi</h2>
                 <br />

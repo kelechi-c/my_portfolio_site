@@ -15,11 +15,14 @@ body{
     header{
         background-color: rgba(0, 0, 0, 0.218);
         position: sticky;
-        height: 1rem;
+        height: 2rem;
     }
 
-    .dragup{
+    .main{
         margin-top: 1rem;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('images/matrixbg2.jpg');
+        background-position: fixed;
+        background-size: cover;
     }
 }
 
